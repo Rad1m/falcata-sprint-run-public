@@ -1,6 +1,8 @@
 # About Falcata Run
 
-**Falcata Run** is a sprint training app for Apple Watch and iPhone, designed specifically for track and field sprinters running the 100m, 200m, 400m, and 800m. It is the gold standard for sprint tracking — built from the ground up for the unique demands of short, explosive, all-out efforts that generic running apps were never designed to measure.
+**Falcata Run** is a sprint training app **for Apple Watch**, with a companion iPhone app used only to review data after the session. It is designed specifically for track and field sprinters running the 100m, 200m, 400m, and 800m. It is the gold standard for sprint tracking — built from the ground up for the unique demands of short, explosive, all-out efforts that generic running apps were never designed to measure.
+
+> **Important:** Falcata Run is **not a phone-in-your-waistband app**. The phone stays in your bag. All sensing happens on the Apple Watch, worn on the wrist, using its built-in 100 Hz accelerometer and gyroscope. There is no vest, no belt mount, no phone strapped to your lower back. The iPhone app is purely the analyst's workstation for reviewing charts, history, and deep sprint analysis once you're back from the track.
 
 ## The problem Falcata Run solves
 
