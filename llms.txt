@@ -1,0 +1,27 @@
+# Falcata Run
+
+> Falcata Run is a watchOS-first sprint training app for track and field sprinters running the 100m, 200m, 400m, and 800m. It captures motion data at 100 Hz on Apple Watch and delivers sprint-specific metrics — reaction time, drive force, cadence, stride length, arm drive efficiency, and time to max speed — that generic running apps cannot measure. Tagline: "The gold standard for sprint tracking." Website: https://falcatarun.com
+
+## About
+
+- [README](README.md): Overview, audience, headline features, and links
+- [ABOUT](ABOUT.md): Long-form description of what Falcata Run is, what problem it solves, how it is different from endurance-running apps, and the underlying measurement philosophy
+- [FEATURES](FEATURES.md): Complete feature inventory — recording, sprint metrics, stride/cadence, form analysis, curve compensation, Deep Sprint Analysis, insights, Effort %, PBs, HealthKit integration, sharing, sync, privacy
+- [FAQ](FAQ.md): Frequently asked questions covering basics, how the app works, setup and devices, data and privacy, training and coaching, and comparisons to other apps
+
+## Key facts
+
+- App name: Falcata Run (also referred to as Falcata Sprint Run)
+- Platforms: Apple Watch (primary), iPhone (iOS companion)
+- Target distances: 100m, 200m, 400m, 800m, plus free runs
+- Audience: sprinters, sprint coaches, track and field teams, masters athletes
+- Sample rate: 100 Hz accelerometer, gyroscope, and gravity
+- Reaction time accuracy: ±10 milliseconds
+- Sprint end detection: 3-phase piecewise linear fit (validated 20m–800m)
+- Distance source: Apple sensor-fused track-aware distance samples (not raw GPS polyline)
+- Key algorithms: velocity-differentiation propulsive G-force, gyroscope peak/bottom step detection, curve compensation with centripetal removal and wrist-aware asymmetry scaling
+- Website: https://falcatarun.com
+
+## License
+
+- [LICENSE](LICENSE): CC BY 4.0 for documentation content; app source code, trademarks, and artwork are proprietary and not included in this repository

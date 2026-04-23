@@ -1,0 +1,110 @@
+# Falcata Run Features
+
+A complete list of what Falcata Run does for sprinters and coaches.
+
+## Core recording
+
+- **100 Hz motion capture** on Apple Watch — accelerometer, gyroscope, and gravity sampled every 10 milliseconds
+- **Fully offline recording** — no iPhone required at the track
+- **Automatic sprint end detection** using a 3-phase piecewise linear fit (finds the true finish, not when you stop running)
+- **Block start mode** with authentic meet-simulation tone sequences — "On your marks," "Set," the gun
+- **Free run mode** for open-distance efforts without a fixed target
+- **Camera finish** — optional iPhone finish-line photo with automatically overlaid sprint data
+
+## Sprint metrics
+
+- **Reaction time** — millisecond-accurate (±10ms), detected from 100 Hz accelerometer signal
+- **Sprint duration** — true finish time, not recording duration
+- **Peak propulsive G-force** — maximum acceleration during the drive phase
+- **Average drive G** — average propulsive force from start to peak velocity (deceleration excluded so recovery doesn't dilute effort)
+- **Drive phase efficiency** — horizontal impulse ratio (% of force pushing you forward vs up)
+- **Time to max velocity**
+
+## Stride and cadence
+
+- **Step count** via gyroscope Z-axis peak/bottom detection (video-verified accurate)
+- **Stride frequency** in Hz (e.g., 3.6 Hz) and steps per minute
+- **Average, peak, and minimum cadence** — all derived from the same source of truth, so avg never exceeds peak
+- **Stride length** — computed from verified step count and known or estimated distance
+
+## Form and technique analysis
+
+- **Arm drive efficiency** — range-of-motion tracking cycle by cycle
+- **ROM decay** — measures how much your form fades under fatigue, with distance-aware thresholds
+- **Phase classification** — each sprint segmented into drive → transition → max velocity → maintenance, with logic adapted for 100m / 200m / 400m
+- **Coaching focus** — phase-specific cues (explosive push, relaxed shoulders, hold arm drive, fight fatigue)
+- **Step-by-step breakdown** — per-cycle efficiency and power index
+
+## Distance and splits
+
+- **Track-aware distance** using Apple's sensor-fused distance samples (matches actual arc, not jittery GPS polyline)
+- **Split times** at 10m and 50m intervals where data supports it
+- **Lane-adjusted distances** for curved sprints
+- **Free-run distance estimation** — GPS-fused, GPS-route, or cycle-anchored IMU fallback
+
+## Curve-aware correction (200m and 400m)
+
+- **Centripetal acceleration removal** — subtracts the lateral G you experience on the bend
+- **Body-lean compensation** — rotation matrix corrects gyroscope signal for the 5–15° lean through curves
+- **Wrist-aware arm asymmetry scaling** — normalizes for the inside arm vs outside arm biomechanical difference on a standard counter-clockwise track
+- **Bell-curve weighting** — smooth entry and exit from curve correction so the signal stays continuous
+
+## Deep Sprint Analysis
+
+- **Sprint curve overlay** — your acceleration curves layered across weeks and months, with PB in neon green, current sprint in white, and historical stable peaks in a gray→blue age gradient
+- **"Progression narrative" sampling** — algorithmic selection of the median of the top 3 sprints per time bucket (filters out flukes and lazy warmups)
+- **Drive phase zoom** — first 2 seconds with automatic foot strike detection
+- **RT vs peak acceleration scatter** — Pearson correlation between your start and your top-end
+- **Diagnostic summary card** — auto-generated, actionable insights comparing recent performance to your averages
+
+## Insights system (three levels)
+
+- **Sprint insights** — single-sprint feedback: "Excellent arm drive," "Personal best reaction time!"
+- **Session insights** — aggregate patterns: "Consistent performance (8% variance)," "Fatigue detected — impact up 12%," "Strong finish"
+- **Dashboard insights** — training load and recovery: "5 sessions in 7 days — high load," "HRV 15% below baseline"
+- Severity-coded: green (positive), gray (neutral), yellow (attention), red (warning)
+
+## Effort %
+
+- Each sprint compares against your PB at the same distance
+- Color-coded zones: near-max (95%+), race effort (85–95%), tempo (70–85%), sub-maximal (<70%)
+- Automatic PB badge when you beat your previous best
+- Excludes false starts, free runs, and GPS-mismatched long sprints from the PB pool
+
+## Personal bests and history
+
+- **Per-distance PB tracking** (20, 30, 40, 50, 60, 80, 100, 150, 200, 300, 400, 600, 800m)
+- **Camera-verified PBs** take priority over non-camera
+- **Session history** with full sprint breakdown
+- **Trend analysis** across time ranges (week, month, year)
+
+## Health and recovery
+
+- **HealthKit integration** — workouts, heart rate, HRV, resting HR
+- **Running dynamics** from Apple Watch Series 6+ — Ground Contact Time, vertical oscillation, stride length, running power
+- **HRV-based recovery insight** — warns when you're training under stress
+- **Training load tracking** — sessions per week, rest days, high-load alerts
+
+## Sharing and social
+
+- **Sprint share cards** — branded 1080×1350 images with your time, distance, reaction time, date, and logo
+- **Camera finish overlay** — share the actual finish-line photo with data band
+- **Game Center leaderboards** — compete with teammates and athletes worldwide
+- **Live Activities** — sprint session status on the iPhone lock screen
+
+## Data and sync
+
+- **Watch-to-iPhone sync** via WatchConnectivity file transfer with ack-based retry queue
+- **iCloud Drive backup** for session metadata and compressed curve files
+- **HealthKit iCloud sync** as a secondary delivery path
+- **Lazy migration** — older sprints automatically updated when the algorithms improve
+
+## Privacy
+
+- Your data stays on your devices and in your own iCloud account
+- No third-party analytics servers processing your motion data
+- HealthKit integration is optional
+
+---
+
+Learn more at [falcatarun.com](https://falcatarun.com).
