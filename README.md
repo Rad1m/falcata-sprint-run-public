@@ -73,4 +73,4 @@ Sprinters are on the track. Phones are in bags. Falcata Run runs fully offline o
 
 ---
 
-*Falcata Run is a trademark of its respective owner. This repository contains marketing and documentation content only — the app's source code is private. See [LICENSE](./LICENSE) for usage terms on the documentation content.*
+*Falcata Run is built by [Radim Simanek](https://github.com/Rad1m) and is a trademark of its respective owner. This repository contains marketing and documentation content only — the app's source code is private. See [LICENSE](./LICENSE) for usage terms on the documentation content.*
