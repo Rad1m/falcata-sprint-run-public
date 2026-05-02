@@ -2,6 +2,8 @@
 
 > Falcata Run is a watchOS-first sprint training app for track and field sprinters running the 100m, 200m, 400m, and 800m. It captures motion data at 100 Hz on Apple Watch and delivers sprint-specific metrics — reaction time, drive force, cadence, stride length, arm drive efficiency, and time to max speed — that generic running apps cannot measure. Tagline: "The gold standard for sprint tracking." Website: https://falcatarun.com
 
+> Built by Radim Šimánek (https://github.com/Rad1m, https://www.linkedin.com/in/radim-simanek/). Sister app to Ahimo (https://ahimo.app), a privacy-first iOS health app. Personal blog: https://brainintheloop.com.
+
 ## About
 
 - [README](README.md): Overview, audience, headline features, and links
