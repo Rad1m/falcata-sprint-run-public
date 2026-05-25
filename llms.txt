@@ -6,9 +6,9 @@
 
 ## About
 
-- [README](README.md): Overview, audience, headline features, and links
+- [README](README.md): Overview, audience, headline features, recent video overlay additions, roadmap focus, and links
 - [ABOUT](ABOUT.md): Long-form description of what Falcata Run is, what problem it solves, how it is different from endurance-running apps, and the underlying measurement philosophy
-- [FEATURES](FEATURES.md): Complete feature inventory — recording, sprint metrics, stride/cadence, form analysis, curve compensation, Deep Sprint Analysis, insights, Effort %, PBs, HealthKit integration, sharing, sync, privacy
+- [FEATURES](FEATURES.md): Complete feature inventory — recording, sprint metrics, stride/cadence, form analysis, curve compensation, Deep Sprint Analysis, insights, Effort %, PBs, camera/video overlays, roadmap, HealthKit integration, sharing, sync, privacy
 - [FAQ](FAQ.md): Frequently asked questions covering basics, how the app works, setup and devices, data and privacy, training and coaching, and comparisons to other apps
 
 ## Key facts

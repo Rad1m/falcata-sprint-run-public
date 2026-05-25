@@ -66,6 +66,10 @@ Yes. Indoor sprints use IMU-only detection (accelerometer and gyroscope). Distan
 
 Yes. Falcata Run has an optional iPhone-based finish-line camera mode — point an iPhone at the finish line, and sprint times are validated against the camera image with a data overlay baked into the shared photo.
 
+### Can I record a full sprint video?
+
+Yes. The Start Line Camera can record either a short slo-mo start or a full sprint. Full Sprint export creates a normal-speed video with Falcata telemetry overlaid: timer, reaction time, velocity/drive chart, foot-strike markers, and GCT bars. Long exports are capped at 20 seconds so processing stays practical on iPhone.
+
 ## Data and privacy
 
 ### Where is my sprint data stored?
@@ -89,6 +93,10 @@ Yes. Each athlete runs their own Apple Watch, and results can be compared via Ga
 ### Does Falcata Run tell me what to work on?
 
 Yes. The app's insights system operates at three levels: per-sprint ("Excellent arm drive"), per-session ("Fatigue detected — impact up 12%"), and dashboard ("5 sessions in 7 days — high load; HRV 15% below baseline"). The Deep Sprint Analysis view auto-generates a diagnostic summary with actionable focus areas.
+
+### Is Falcata Run adding AI coaching?
+
+Not at this time. The roadmap is focused on reliable sprint biomechanics, camera-backed evidence, video overlays, and transparent metrics rather than AI-generated coaching.
 
 ### What is Effort %?
 

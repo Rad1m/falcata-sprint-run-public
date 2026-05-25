@@ -10,6 +10,8 @@ A complete list of what Falcata Run does for sprinters and coaches.
 - **Block start mode** with authentic meet-simulation tone sequences — "On your marks," "Set," the gun
 - **Free run mode** for open-distance efforts without a fixed target
 - **Camera finish** — optional iPhone finish-line photo with automatically overlaid sprint data
+- **Start Line Camera** — optional iPhone recording from the start line, with Slo-mo Start and Full Sprint capture modes
+- **Full Sprint video export** — normal-speed telemetry overlay video with timer, reaction time, velocity/drive chart, foot-strike ticks, and GCT bars
 
 ## Sprint metrics
 
@@ -89,8 +91,16 @@ A complete list of what Falcata Run does for sprinters and coaches.
 
 - **Sprint share cards** — branded 1080×1350 images with your time, distance, reaction time, date, and logo
 - **Camera finish overlay** — share the actual finish-line photo with data band
+- **Start Line Camera video overlay** — export a full-sprint video with sprint telemetry; long exports are capped at 20 seconds for practical processing
 - **Game Center leaderboards** — compete with teammates and athletes worldwide
 - **Live Activities** — sprint session status on the iPhone lock screen
+
+## Roadmap
+
+- **Video-first sprint review** — continue improving Start Line Camera capture, sync, and overlay validation against real footage
+- **Honest signal processing** — keep step detection, acceleration, GCT, and sprint-end logic tied to shared app processors instead of duplicate paths
+- **Workflow clarity** — make it obvious when the iPhone can record the start only, finish only, or the full sprint
+- **No AI coaching for now** — AI features are not planned at this time; Falcata Run is focused on measured biomechanics, reliable camera evidence, and transparent metrics
 
 ## Data and sync
 

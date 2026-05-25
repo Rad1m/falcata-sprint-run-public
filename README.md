@@ -8,7 +8,7 @@
 
 ## What it is
 
-Falcata Run turns your Apple Watch into a starter pistol, a finish-line camera, and a professional sprint coach — all on your wrist, all without needing your phone at the track.
+Falcata Run turns your Apple Watch into a starter pistol and sprint sensor, with optional iPhone camera tools for finish-line validation and full-sprint video overlays.
 
 It captures motion at 100 Hz during every sprint and surfaces the metrics that actually matter: **reaction time, drive force, cadence, stride length, arm drive efficiency, and time to max speed.** Then it tells you what to fix, what to keep, and how to get faster.
 
@@ -29,6 +29,7 @@ It captures motion at 100 Hz during every sprint and surfaces the metrics that a
 - 💪 **Arm drive & ROM decay** — how much your form fades under fatigue
 - 🏁 **Sprint end detection** — piecewise linear fit finds the true finish, not just when you stopped
 - 📸 **Camera finish** — optional iPhone finish-line photo with data overlay
+- 🎥 **Start Line Camera** — record starts or full sprints on iPhone and export telemetry video overlays
 - 🏃 **Effort %** — how hard you ran vs your PB at the same distance
 - 🔄 **Curve compensation** — corrects for centripetal force and body lean on 200m+ bends
 - 📊 **Deep Sprint Analysis** — acceleration curve overlays, drive phase zoom, RT-vs-acceleration correlation
@@ -52,6 +53,22 @@ It captures motion at 100 Hz during every sprint and surfaces the metrics that a
 | **Deep Sprint Analysis** — drive phase zoom, foot strike detection, reaction time trend | **World leaderboards** — 100m, 200m, 400m, and 800m global rankings |
 | ![Rep detail view showing Acceleration chart with Drive Force 0.18G and Drive Efficiency 63%, overlaid with sprint end and ground contact markers, plus Arm Swing gyroscope chart showing 28.89 rad/s peak rotation](screenshots/rep-detail-charts.png) | ![Finish line camera photo of a sprinter crossing a red outdoor track, showing the Camera Timed badge Falcata Run uses to validate sprint end times against visual evidence](screenshots/camera-finish.png) |
 | **Rep detail** — acceleration, drive force, efficiency, arm swing analysis | **Camera finish** — validated sprint times with automatic data overlay |
+
+## New and upcoming
+
+Recently added:
+
+- **Start Line Camera modes** — choose a short slo-mo start capture or record the full sprint.
+- **Full Sprint video overlay export** — creates a normal-speed video with timer, reaction time, velocity/drive chart, foot-strike ticks, and GCT bars.
+- **Shared signal processors** — video overlays use the same sprint metrics, step detection, GCT, and velocity profile as the app charts.
+- **Bounded export duration** — full-sprint video exports are capped at 20 seconds to keep processing practical.
+
+Roadmap focus:
+
+- Make the Start Line Camera workflow clearer and easier to use.
+- Improve video overlay validation against real sprint footage.
+- Keep refining sprint timing, acceleration, step detection, and camera matching from measured data.
+- **AI coaching is not planned at this time.** The current focus is reliable biomechanics, honest metrics, and camera-backed evidence.
 
 ## Why Apple Watch-first
 
