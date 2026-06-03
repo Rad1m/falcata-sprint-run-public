@@ -40,6 +40,12 @@ Falcata Run is **watchOS-first by design**. When you step onto a track, your pho
 
 Your iPhone is the analyst's workstation — charts, history, session insights, social sharing, deep sprint analysis, Game Center leaderboards. But the actual training happens on the wrist. No phone required. Everything syncs back when you're in range.
 
+## The Mac app — Falcata Analyzer
+
+For deeper desktop review there is a native macOS app, **Falcata Analyzer**. It opens the sprint sessions you export from your iPhone and reuses the exact same engine — so the charts on your Mac show the same math your Watch captured and your iPhone computed, never a separate desktop reimplementation.
+
+On the bigger screen it adds a real review and editing workspace: synchronized velocity, drive, power, acceleration, arm-swing, and ground-contact charts on one shared playhead; individual charts popped out into side-by-side windows; and a video editor where you link your own sprint footage, align it to the acceleration onset, trim it, and burn a configurable telemetry overlay into an exported clip. You can also export charts as images or the underlying data as CSV. It's the same honest, single-source-of-truth philosophy, scaled up to a desk.
+
 ## The metrics
 
 Every sprint is analyzed on these dimensions:

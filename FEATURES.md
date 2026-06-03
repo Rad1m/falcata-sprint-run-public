@@ -95,6 +95,20 @@ A complete list of what Falcata Run does for sprinters and coaches.
 - **Game Center leaderboards** — compete with teammates and athletes worldwide
 - **Live Activities** — sprint session status on the iPhone lock screen
 
+## Desktop analysis (macOS — Falcata Analyzer)
+
+A native macOS app that ingests your exported sprint sessions and reuses the **same engine** as the Watch and iPhone — the Mac shows the exact math your wrist captured, with no separate desktop calculation path.
+
+- **Open exported sprint sessions** — browse every sprint with its stored metrics and canonical charts (acceleration, velocity, drive force, power, arm swing, foot-strike, ground contact time)
+- **Synchronized charts** — one shared, scrubbable playhead across all lanes; hover or click-drag to scrub; select a time range to read each lane's average over the interval
+- **Per-lane focus** — maximize a single chart, or open individual charts in separate native macOS windows and arrange them side by side
+- **Video editing workspace** — link an external sprint video, align it to the acceleration onset (GO), trim the useful range, and play/scrub with frame-accurate seeking
+- **On-video marker editing** — create and edit Start / Finish / Distance markers on the video timeline or directly on the charts; edits persist in a per-sprint sidecar (the original export is never modified)
+- **Telemetry video overlay** — configure which telemetry lanes appear over the footage, locked to the same playhead, markers, sprint window, and units as the charts
+- **Video export** — export the trimmed, overlaid clip as H.264 MP4 or QuickTime, with explicit resolution, frame-rate, and bitrate control
+- **Chart export** — export stacked charts as PNG or JPEG, with a dark or white background, optional sprint info (distance, reaction time, steps, weather), a live preview, and a Falcatarun.com + date attribution stamp
+- **CSV export** — export selected chart lanes and sprint info, with optional markers and foot strikes, delimiter selection, and a live preview
+
 ## Roadmap
 
 - **Video-first sprint review** — continue improving Start Line Camera capture, sync, and overlay validation against real footage

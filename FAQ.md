@@ -70,6 +70,14 @@ Yes. Falcata Run has an optional iPhone-based finish-line camera mode — point 
 
 Yes. The Start Line Camera can record either a short slo-mo start or a full sprint. Full Sprint export creates a normal-speed video with Falcata telemetry overlaid: timer, reaction time, velocity/drive chart, foot-strike markers, and GCT bars. Long exports are capped at 20 seconds so processing stays practical on iPhone.
 
+### Is there a Mac app?
+
+Yes. **Falcata Analyzer** is a native macOS app (macOS 15 or later) for reviewing your sprints on a bigger screen. You export a sprint session from your iPhone and open it on the Mac, where you get synchronized velocity, drive, power, acceleration, arm-swing, and ground-contact charts on one shared playhead, pop-out chart windows you can arrange side by side, and a video editing workspace. It reuses the exact same engine as the Watch and iPhone, so the numbers never diverge.
+
+### Can I overlay my sprint data on my own video on the Mac?
+
+Yes. In Falcata Analyzer you can link an external sprint video, align it to the acceleration onset, trim it, scrub it frame-accurately, and export a clip with a configurable telemetry overlay (H.264 MP4 or QuickTime, with resolution, frame-rate, and bitrate control). You can also export charts as PNG/JPEG images or the underlying lanes and markers as CSV. The linked video and your edits live in an app-side sidecar — your exported sprint file is never modified.
+
 ## Data and privacy
 
 ### Where is my sprint data stored?

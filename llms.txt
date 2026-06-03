@@ -11,10 +11,14 @@
 - [FEATURES](FEATURES.md): Complete feature inventory — recording, sprint metrics, stride/cadence, form analysis, curve compensation, Deep Sprint Analysis, insights, Effort %, PBs, camera/video overlays, roadmap, HealthKit integration, sharing, sync, privacy
 - [FAQ](FAQ.md): Frequently asked questions covering basics, how the app works, setup and devices, data and privacy, training and coaching, and comparisons to other apps
 
+## Falcata Analyzer (macOS)
+
+Falcata Analyzer is a native macOS app (macOS 15+) that opens sprint sessions exported from the iPhone and reuses the same engine as the Watch and iPhone (single source of truth — no separate desktop calculation path). It provides synchronized velocity / drive force / power / acceleration / arm-swing / ground-contact charts on one shared playhead, pop-out chart windows, a video editing workspace (link external footage, align to acceleration onset, trim, frame-accurate scrub, edit Start/Finish/Distance markers), a configurable telemetry video overlay, and export to video (H.264 MP4/QuickTime with resolution/FPS/bitrate control), chart images (PNG/JPEG), and CSV. It replaced the earlier Python desktop video/analysis tooling.
+
 ## Key facts
 
 - App name: Falcata Run (also referred to as Falcata Sprint Run)
-- Platforms: Apple Watch (primary), iPhone (iOS companion)
+- Platforms: Apple Watch (primary), iPhone (iOS companion), Mac (Falcata Analyzer, macOS 15+ desktop review/video/export app)
 - Target distances: 100m, 200m, 400m, 800m, plus free runs
 - Audience: sprinters, sprint coaches, track and field teams, masters athletes
 - Sample rate: 100 Hz accelerometer, gyroscope, and gravity

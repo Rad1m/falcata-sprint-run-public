@@ -8,7 +8,7 @@
 
 ## What it is
 
-Falcata Run turns your Apple Watch into a starter pistol and sprint sensor, with optional iPhone camera tools for finish-line validation and full-sprint video overlays.
+Falcata Run turns your Apple Watch into a starter pistol and sprint sensor, with optional iPhone camera tools for finish-line validation and full-sprint video overlays — and a native **Mac app, Falcata Analyzer**, for deep desktop review and video editing.
 
 It captures motion at 100 Hz during every sprint and surfaces the metrics that actually matter: **reaction time, drive force, cadence, stride length, arm drive efficiency, and time to max speed.** Then it tells you what to fix, what to keep, and how to get faster.
 
@@ -54,13 +54,31 @@ It captures motion at 100 Hz during every sprint and surfaces the metrics that a
 | ![Rep detail view showing Acceleration chart with Drive Force 0.18G and Drive Efficiency 63%, overlaid with sprint end and ground contact markers, plus Arm Swing gyroscope chart showing 28.89 rad/s peak rotation](screenshots/rep-detail-charts.png) | ![Finish line camera photo of a sprinter crossing a red outdoor track, showing the Camera Timed badge Falcata Run uses to validate sprint end times against visual evidence](screenshots/camera-finish.png) |
 | **Rep detail** — acceleration, drive force, efficiency, arm swing analysis | **Camera finish** — validated sprint times with automatic data overlay |
 
+### On the Mac — Falcata Analyzer
+
+A native macOS app that opens your exported sprint sessions and reuses the exact same engine as the Watch and iPhone — so the charts on your Mac show the same math your wrist captured, with no separate desktop calculation path.
+
+| | |
+|---|---|
+| ![Falcata Analyzer on macOS showing the charts-only review: a left dashboard with Personal Best, Best Time, Reaction Time and Ground Contact Time summaries plus a sprint table, and a stacked column of synchronized charts — Velocity, Drive Force, Power, Acceleration, Arm Swing (gyro Z), and Ground Contact Time — sharing one scrubbable playhead, with session weather shown in the header](screenshots/analyzer-charts.png) | ![Falcata Analyzer on macOS in the video workspace: a sprinter mid-stride on a red outdoor track in the program monitor with a live telemetry overlay, an overlay inspector listing Velocity, Drive Force, Power, Acceleration, Arm Swing and GCT lanes, transport controls, and a timeline below combining a thumbnail filmstrip with synchronized signal lanes](screenshots/analyzer-video-workspace.png) |
+| **Charts review** — synchronized velocity, drive, power, acceleration, arm swing, and GCT charts on one shared, scrubbable playhead | **Video workspace** — link your own sprint footage, align it to the telemetry, trim it, and burn a configurable telemetry overlay into an exported clip |
+
+What Falcata Analyzer adds on the desktop:
+
+- **Open exported sprint sessions** and browse every sprint with its stored metrics and canonical charts.
+- **Synchronized chart analysis** — one shared playhead and time-range selection across all lanes, maximize a single lane, and open charts in separate resizable windows side by side.
+- **Video editing workspace** — link an external sprint video, align it to the acceleration onset, trim it, scrub frame-accurately, and edit Start / Finish / Distance markers on the video timeline or the charts.
+- **Telemetry video overlay + export** — choose which telemetry lanes appear over the footage and export a trimmed clip (H.264 MP4 / QuickTime, with resolution, frame-rate, and bitrate control).
+- **Chart and CSV export** — export stacked charts as PNG / JPEG (dark or white background, optional sprint info) or export the underlying lanes and markers as CSV.
+
 ## New and upcoming
 
 Recently added:
 
+- **Falcata Analyzer for macOS** — a native desktop app for reviewing exported sprints, side-by-side chart windows, video editing with telemetry overlays, and chart / video / CSV export.
 - **Start Line Camera modes** — choose a short slo-mo start capture or record the full sprint.
 - **Full Sprint video overlay export** — creates a normal-speed video with timer, reaction time, velocity/drive chart, foot-strike ticks, and GCT bars.
-- **Shared signal processors** — video overlays use the same sprint metrics, step detection, GCT, and velocity profile as the app charts.
+- **Shared signal processors** — video overlays and the Mac app use the same sprint metrics, step detection, GCT, and velocity profile as the app charts.
 - **Bounded export duration** — full-sprint video exports are capped at 20 seconds to keep processing practical.
 
 Roadmap focus:
@@ -78,6 +96,7 @@ Sprinters are on the track. Phones are in bags. Falcata Run runs fully offline o
 
 - Apple Watch (Series 6 and later recommended for full running-dynamics support)
 - iPhone (iOS analyst companion)
+- Mac (Falcata Analyzer, macOS 15 or later — desktop review, video editing, and export)
 - iCloud Drive for session backup
 - HealthKit integration (workouts, heart rate, HRV, running dynamics)
 
