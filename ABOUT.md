@@ -46,6 +46,8 @@ For deeper desktop review there is a native macOS app, **Falcata Analyzer**. It 
 
 On the bigger screen it adds a real review and editing workspace: synchronized velocity, drive, power, acceleration, arm-swing, and ground-contact charts on one shared playhead; individual charts popped out into side-by-side windows; and a video editor where you link your own sprint footage, align it to the acceleration onset, trim it, and burn a configurable telemetry overlay into an exported clip. You can also export charts as images or the underlying data as CSV. It's the same honest, single-source-of-truth philosophy, scaled up to a desk.
 
+Falcata Analyzer also includes an optional **AI Sprint Coach** that turns your measured numbers into coaching — with a chat you can ask about any sprint across your whole imported history. You choose how it runs: fully on device with Apple Intelligence or a local open model, or with your own cloud API key (Anthropic, OpenAI, OpenRouter). The on-device options keep your data on your Mac; any cloud use is opt-in and shown clearly before anything is sent.
+
 ## The metrics
 
 Every sprint is analyzed on these dimensions:

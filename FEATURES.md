@@ -108,13 +108,14 @@ A native macOS app that ingests your exported sprint sessions and reuses the **s
 - **Video export** — export the trimmed, overlaid clip as H.264 MP4 or QuickTime, with explicit resolution, frame-rate, and bitrate control
 - **Chart export** — export stacked charts as PNG or JPEG, with a dark or white background, optional sprint info (distance, reaction time, steps, weather), a live preview, and a Falcatarun.com + date attribution stamp
 - **CSV export** — export selected chart lanes and sprint info, with optional markers and foot strikes, delimiter selection, and a live preview
+- **AI Sprint Coach (optional)** — coaching grounded in your measured numbers, plus a chat that answers questions across your whole imported sprint history. Run it fully on device with Apple Intelligence or a local open model, or bring your own cloud API key (Anthropic, OpenAI, OpenRouter). On-device providers keep your data on your Mac; any cloud use is opt-in behind a clear consent
 
 ## Roadmap
 
 - **Video-first sprint review** — continue improving Start Line Camera capture, sync, and overlay validation against real footage
 - **Honest signal processing** — keep step detection, acceleration, GCT, and sprint-end logic tied to shared app processors instead of duplicate paths
 - **Workflow clarity** — make it obvious when the iPhone can record the start only, finish only, or the full sprint
-- **No AI coaching for now** — AI features are not planned at this time; Falcata Run is focused on measured biomechanics, reliable camera evidence, and transparent metrics
+- **AI coaching (Analyzer, opt-in)** — Falcata Analyzer on macOS now has an AI Sprint Coach: on device (Apple Intelligence or a local open model) or bring-your-own-key cloud. The iPhone and Watch stay focused on measured biomechanics, reliable camera evidence, and transparent metrics — AI is never required, and nothing leaves your Mac unless you opt into a cloud provider
 
 ## Data and sync
 

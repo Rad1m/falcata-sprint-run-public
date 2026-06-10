@@ -70,11 +70,13 @@ What Falcata Analyzer adds on the desktop:
 - **Video editing workspace** — link an external sprint video, align it to the acceleration onset, trim it, scrub frame-accurately, and edit Start / Finish / Distance markers on the video timeline or the charts.
 - **Telemetry video overlay + export** — choose which telemetry lanes appear over the footage and export a trimmed clip (H.264 MP4 / QuickTime, with resolution, frame-rate, and bitrate control).
 - **Chart and CSV export** — export stacked charts as PNG / JPEG (dark or white background, optional sprint info) or export the underlying lanes and markers as CSV.
+- **AI Sprint Coach (optional)** — coaching grounded in your measured numbers, plus a chat that answers across your whole imported history. Run it on device with Apple Intelligence or a local open model, or bring your own cloud API key (Anthropic, OpenAI, OpenRouter); on-device providers keep your data on your Mac.
 
 ## New and upcoming
 
 Recently added:
 
+- **AI Sprint Coach in Falcata Analyzer** — on-device (Apple Intelligence or a local model) or bring-your-own-key cloud (Anthropic, OpenAI, OpenRouter) coaching, with a chat that reads across your whole imported sprint history.
 - **Falcata Analyzer for macOS** — a native desktop app for reviewing exported sprints, side-by-side chart windows, video editing with telemetry overlays, and chart / video / CSV export.
 - **Start Line Camera modes** — choose a short slo-mo start capture or record the full sprint.
 - **Full Sprint video overlay export** — creates a normal-speed video with timer, reaction time, velocity/drive chart, foot-strike ticks, and GCT bars.
