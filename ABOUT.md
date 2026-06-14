@@ -48,6 +48,14 @@ On the bigger screen it adds a real review and editing workspace: synchronized v
 
 Falcata Analyzer also includes an optional **AI Sprint Coach** that turns your measured numbers into coaching — with a chat you can ask about any sprint across your whole imported history. You choose how it runs: fully on device with Apple Intelligence or a local open model, or with your own cloud API key (Anthropic, OpenAI, OpenRouter). The on-device options keep your data on your Mac; any cloud use is opt-in and shown clearly before anything is sent.
 
+## The web app — Falcata Web Analyzer
+
+Not every sprint comes from an Apple Watch. **Falcata Web Analyzer** ([app.falcatarun.com](https://app.falcatarun.com)) brings Falcata's marker-based video analysis to any sprint clip, in any modern browser, with nothing to install and no account to create.
+
+You open a local video, scrub it frame by frame, and place markers: distance splits (Start / Distance / Finish) and ground contact time (contact → toe-off) spans. From those markers it derives segment velocities, launch acceleration, and a sprint summary, draws a live overlay exactly as it will export, and lets you save a PNG, a short sprint-window video clip (with audio), or a CSV. Units switch between metric and imperial, and your markers auto-save per video right in the browser.
+
+It is deliberately the lightweight, hardware-free side of Falcata. The video never leaves your device — it is processed locally and never uploaded. Where Falcata Analyzer on the Mac overlays the telemetry your Watch captured, the web analyzer needs only the footage and your eye, which makes it ideal for quickly marking up a phone video of an athlete and sharing the result.
+
 ## The metrics
 
 Every sprint is analyzed on these dimensions:

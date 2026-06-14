@@ -78,6 +78,14 @@ Yes. **Falcata Analyzer** is a native macOS app (macOS 15 or later) for reviewin
 
 Yes. In Falcata Analyzer you can link an external sprint video, align it to the acceleration onset, trim it, scrub it frame-accurately, and export a clip with a configurable telemetry overlay (H.264 MP4 or QuickTime, with resolution, frame-rate, and bitrate control). You can also export charts as PNG/JPEG images or the underlying lanes and markers as CSV. The linked video and your edits live in an app-side sidecar — your exported sprint file is never modified.
 
+### Is there a web version?
+
+Yes. **Falcata Web Analyzer** ([app.falcatarun.com](https://app.falcatarun.com)) runs entirely in your browser — no install, no account. You open a local sprint video, scrub it frame by frame, place distance markers (Start / Distance / Finish) and ground contact time spans, and read velocity, acceleration, and sprint stats from your markers. You can export a PNG, a short sprint-window video clip (with audio), or a CSV. Units switch between metric and imperial, and your markers auto-save per video in the browser. Your video is processed locally and never uploaded.
+
+### Do I need an Apple Watch to use the web analyzer?
+
+No. The web analyzer works from the video alone — any sprint clip from any phone or camera. It does not use Watch telemetry; you mark the distances and ground contacts yourself, and it computes the rest. The Apple Watch, iPhone, and Mac apps are where the 100 Hz sensor analysis lives; the web app is the marker-based, hardware-free companion. For full-session telemetry review, use Falcata Analyzer on the Mac.
+
 ## Data and privacy
 
 ### Where is my sprint data stored?

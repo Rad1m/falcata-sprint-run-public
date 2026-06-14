@@ -108,7 +108,26 @@ A native macOS app that ingests your exported sprint sessions and reuses the **s
 - **Video export** — export the trimmed, overlaid clip as H.264 MP4 or QuickTime, with explicit resolution, frame-rate, and bitrate control
 - **Chart export** — export stacked charts as PNG or JPEG, with a dark or white background, optional sprint info (distance, reaction time, steps, weather), a live preview, and a Falcatarun.com + date attribution stamp
 - **CSV export** — export selected chart lanes and sprint info, with optional markers and foot strikes, delimiter selection, and a live preview
+- **Standalone video analysis** — open any video without a linked sprint and mark Start / Finish / Distance points to read velocity and acceleration from the footage alone (the same marker-based method as the web analyzer)
+- **Team Roster** — organize athletes and assign their sprint sessions and videos, so a coach can manage a whole squad from a single library; sessions can be moved between athletes or left unassigned
 - **AI Sprint Coach (optional)** — coaching grounded in your measured numbers, plus a chat that answers questions across your whole imported sprint history. Run it fully on device with Apple Intelligence or a local open model, or bring your own cloud API key (Anthropic, OpenAI, OpenRouter). On-device providers keep your data on your Mac; any cloud use is opt-in behind a clear consent
+
+## Web analyzer (browser — app.falcatarun.com)
+
+A free, install-free companion that runs entirely in the browser at **[app.falcatarun.com](https://app.falcatarun.com)**. It needs nothing but a video — no Apple Watch, no account, no upload — and brings Falcata's marker-based video analysis to any device and any sprint footage.
+
+- **Local video, frame-accurate** — open a clip from your device and scrub it frame by frame; nothing is uploaded
+- **Distance markers** — place Start / Distance / Finish points on the timeline; Start is always 0 m and there is one Start and one Finish per clip
+- **Ground contact time (GCT) markers** — mark contact → toe-off spans to read each step's GCT in milliseconds
+- **Sprint-window validation** — markers before Start or after Finish are flagged out of bounds; a Start marker sets t = 0 for sprint-relative time
+- **Velocity, acceleration & sprint stats** — average velocity per segment, launch acceleration from the Start, and a sprint summary (duration, max average speed, start acceleration), all computed from your markers
+- **WYSIWYG overlay** — a live, configurable overlay (time, velocity, acceleration, GCT, sprint stats, video name) drawn exactly as it will export
+- **Export** — a PNG still, a short sprint-window video clip (WebM / MP4, with the source audio), or a CSV of markers and velocity / acceleration / GCT segments (SI columns)
+- **Metric or imperial** display units, remembered per video
+- **Local catalogue** — markers, playhead, and units auto-save per video file in the browser (IndexedDB); reopening the same file restores your work. Video bytes are never stored
+- **Privacy** — videos are processed locally and never uploaded; only a strictly opt-in, consent-gated analytics cookie is used (decline and nothing is sent)
+
+It complements Falcata Analyzer on the Mac: the Mac app overlays measured Watch telemetry on your footage and is best for full-session review, while the web analyzer needs only the video and your markers and is ideal for quick, shareable splits and ground-contact analysis on any clip.
 
 ## Roadmap
 
