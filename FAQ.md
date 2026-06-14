@@ -110,9 +110,9 @@ Yes. Each athlete runs their own Apple Watch, and results can be compared via Ga
 
 Yes. The app's insights system operates at three levels: per-sprint ("Excellent arm drive"), per-session ("Fatigue detected — impact up 12%"), and dashboard ("5 sessions in 7 days — high load; HRV 15% below baseline"). The Deep Sprint Analysis view auto-generates a diagnostic summary with actionable focus areas.
 
-### Is Falcata Run adding AI coaching?
+### Does Falcata Run have AI coaching?
 
-Not at this time. The roadmap is focused on reliable sprint biomechanics, camera-backed evidence, video overlays, and transparent metrics rather than AI-generated coaching.
+Yes, but only on the Mac. **Falcata Analyzer** (macOS) includes an optional AI Sprint Coach you can run fully on device (Apple Intelligence or a local open model) or with your own cloud API key (Anthropic, OpenAI, OpenRouter), plus a chat across your whole imported history. The Apple Watch and iPhone apps deliberately stay AI-free — they focus on reliable sprint biomechanics, camera-backed evidence, and transparent metrics. AI is never required to use Falcata Run, and on-device options keep your data on your Mac.
 
 ### What is Effort %?
 

@@ -104,7 +104,7 @@ Roadmap focus:
 - Make the Start Line Camera workflow clearer and easier to use.
 - Improve video overlay validation against real sprint footage.
 - Keep refining sprint timing, acceleration, step detection, and camera matching from measured data.
-- **AI coaching is not planned at this time.** The current focus is reliable biomechanics, honest metrics, and camera-backed evidence.
+- **No AI on the Watch or iPhone.** AI coaching lives only in Falcata Analyzer on macOS, where it's optional and opt-in; the Watch and iPhone stay focused on reliable biomechanics, honest metrics, and camera-backed evidence.
 
 ## Why Apple Watch-first
 
