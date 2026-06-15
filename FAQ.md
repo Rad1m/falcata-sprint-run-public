@@ -30,11 +30,11 @@ Reaction time is detected from 100 Hz accelerometer data captured on the Apple W
 
 ### How accurate is Falcata Run compared to standard running apps?
 
-Falcata Run is roughly 10× more accurate than generic fitness apps for sprint-specific metrics. Standard apps sample GPS at 1 Hz and average over minutes — fine for a 10K, useless for an 11-second 100m. Falcata Run samples at 100 Hz and uses sensor-fused distance from Apple's track detection system, which matches the actual arc of a 400m track rather than the jittery GPS polyline that underestimates distance by ~28%.
+Generic fitness apps are built for steady-state running — they sample GPS at 1 Hz and average over minutes, which cannot resolve a 180ms reaction time, a 2-second drive phase, or an 11-second 100m finish. Falcata Run samples at 100 Hz and uses sensor-fused distance from Apple's track detection system, which matches the actual arc of a 400m track rather than the jittery GPS polyline that underestimates distance by ~28%.
 
 ### How does Falcata Run detect the end of a sprint?
 
-Falcata Run uses a 3-phase piecewise linear fit — the acceleration signal is modeled as three connected lines (drive, fly, deceleration), and the breakpoint between fly and deceleration is identified as the sprint end. This detects the structural inflection where deceleration *begins*, rather than waiting for you to slow down and walk off the track. It has been validated against video-verified sprints from 20m to 800m.
+Falcata Run uses a 3-phase piecewise linear fit — the acceleration signal is modeled as three connected lines (drive, fly, deceleration), and the breakpoint between fly and deceleration is identified as the sprint end. This detects the structural inflection where deceleration *begins*, rather than waiting for you to slow down and walk off the track. It has been tested against video-verified sprints from 20m to 800m.
 
 ### What is propulsive G-force and how is it measured?
 

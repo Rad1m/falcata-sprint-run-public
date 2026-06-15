@@ -12,7 +12,7 @@ Falcata Run turns your Apple Watch into a starter pistol and sprint sensor, with
 
 It captures motion at 100 Hz during every sprint and surfaces the metrics that actually matter: **reaction time, drive force, cadence, stride length, arm drive efficiency, and time to max speed.** Then it tells you what to fix, what to keep, and how to get faster.
 
-**10× more accurate than standard running apps.** Generic fitness trackers are built for 5Ks and marathons. Falcata Run is built for the 10-second window where races are won.
+**Built for sprinting, not marathons.** Generic apps sample GPS at 1 Hz and average over minutes — they cannot measure a 180ms reaction time or an 11-second 100m. Falcata Run is built for the 10-second window where races are won.
 
 ## Who it's for
 

@@ -75,7 +75,7 @@ Every sprint is analyzed on these dimensions:
 
 **Sprinters.** Whether you're a high school athlete running your first 100m, a collegiate 400m runner grinding through winter training, or a masters athlete still chasing PBs — Falcata Run gives you objective data where coaches used to rely on stopwatches and feel.
 
-**Coaches.** Spot fatigue patterns across a training block. Compare reaction times rep by rep. See when a sprinter's arm drive starts to collapse. Identify the exact session where form broke down before you lose them to an injury.
+**Coaches.** Spot fatigue patterns across a training block. Compare reaction times rep by rep. See when a sprinter's arm drive starts to collapse. Identify the exact session where form broke down and load started to pile up.
 
 **Teams and clubs.** Run block starts at practice with synchronized meet-simulation tone patterns. Game Center leaderboards bring competitive fire to Tuesday workouts.
 
