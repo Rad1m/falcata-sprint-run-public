@@ -80,7 +80,7 @@ Yes. In Falcata Analyzer you can link an external sprint video, align it to the 
 
 ### Is there a web version?
 
-Yes. **Falcata Web Analyzer** ([app.falcatarun.com](https://app.falcatarun.com)) runs entirely in your browser — no install, no account. You open a local sprint video, scrub it frame by frame, place distance markers (Start / Distance / Finish) and ground contact time spans, and read velocity, acceleration, and sprint stats from your markers. You can export a PNG, a short sprint-window video clip (with audio), or a CSV. Units switch between metric and imperial, and your markers auto-save per video in the browser. Your video is processed locally and never uploaded.
+Yes. **Falcata Web Analyzer** ([app.falcatarun.com](https://app.falcatarun.com)) runs entirely in your browser — no install, no account. You open a local sprint video, scrub it frame by frame, place distance markers (Start / Distance / Finish) and ground contact time spans, and read velocity, acceleration, and sprint stats from your markers. You can export a PNG, a short sprint-window video clip (with audio), or a CSV. Units switch between metric and imperial, and your markers auto-save per video in the browser. It also has **AI Vision** — on-device pose analysis on a marked section that traces a skeleton, measures ground contact automatically, counts foot strikes, and flags overstriding. Your video is processed locally and never uploaded.
 
 ### Do I need an Apple Watch to use the web analyzer?
 
@@ -113,6 +113,8 @@ Yes. The app's insights system operates at three levels: per-sprint ("Excellent 
 ### Does Falcata Run have AI coaching?
 
 Yes, but only on the Mac. **Falcata Analyzer** (macOS) includes an optional AI Sprint Coach you can run fully on device (Apple Intelligence or a local open model) or with your own cloud API key (Anthropic, OpenAI, OpenRouter), plus a chat across your whole imported history. The Apple Watch and iPhone apps deliberately stay AI-free — they focus on reliable sprint biomechanics, camera-backed evidence, and transparent metrics. AI is never required to use Falcata Run, and on-device options keep your data on your Mac.
+
+Separately, the **Web Analyzer** has **AI Vision** — on-device computer-vision pose analysis (skeleton overlay, automatic ground contact, foot-strike counts, overstride flags) that runs in your browser with no upload. That is pose analysis, not the LLM-based coaching the Mac app provides.
 
 ### What is Effort %?
 

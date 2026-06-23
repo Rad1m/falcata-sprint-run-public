@@ -54,6 +54,8 @@ Not every sprint comes from an Apple Watch. **Falcata Web Analyzer** ([app.falca
 
 You open a local video, scrub it frame by frame, and place markers: distance splits (Start / Distance / Finish) and ground contact time (contact → toe-off) spans. From those markers it derives segment velocities, launch acceleration, and a sprint summary, draws a live overlay exactly as it will export, and lets you save a PNG, a short sprint-window video clip (with audio), or a CSV. Units switch between metric and imperial, and your markers auto-save per video right in the browser.
 
+It also brings AI to the browser. **AI Vision** runs on-device pose analysis on a marked section: it traces a frame-by-frame skeleton over the sprinter, detects each foot strike and measures ground contact automatically, counts contacts left and right, and flags overstriding (a foot landing ahead of the body). All of it runs locally with no upload — this is computer-vision pose analysis, distinct from the LLM-based AI Sprint Coach on the Mac.
+
 It is deliberately the lightweight, hardware-free side of Falcata. The video never leaves your device — it is processed locally and never uploaded. Where Falcata Analyzer on the Mac overlays the telemetry your Watch captured, the web analyzer needs only the footage and your eye, which makes it ideal for quickly marking up a phone video of an athlete and sharing the result.
 
 ## The metrics

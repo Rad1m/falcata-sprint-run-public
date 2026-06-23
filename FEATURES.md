@@ -125,6 +125,7 @@ A free, install-free companion that runs entirely in the browser at **[app.falca
 - **Export** — a PNG still, a short sprint-window video clip (WebM / MP4, with the source audio), or a CSV of markers and velocity / acceleration / GCT segments (SI columns)
 - **Metric or imperial** display units, remembered per video
 - **Local catalogue** — markers, playhead, and units auto-save per video file in the browser (IndexedDB); reopening the same file restores your work. Video bytes are never stored
+- **AI Vision (on-device pose analysis)** — run AI on any marked section to trace a frame-by-frame skeleton (blue bones, neon-green joints), detect each foot strike and time ground contact automatically (read-only AI GCT bars), count contacts split left/right, and flag overstriding (foot landing ahead of the body, possible/likely severity). The model runs entirely in the browser — no upload — and results persist per video file; V1 analyzes one section at a time and blocks sections longer than 30 seconds. This is computer-vision pose analysis, distinct from the LLM-based AI Sprint Coach, which remains a macOS-Analyzer feature
 - **Privacy** — videos are processed locally and never uploaded; only a strictly opt-in, consent-gated analytics cookie is used (decline and nothing is sent)
 
 It complements Falcata Analyzer on the Mac: the Mac app overlays measured Watch telemetry on your footage and is best for full-session review, while the web analyzer needs only the video and your markers and is ideal for quick, shareable splits and ground-contact analysis on any clip.
@@ -135,6 +136,7 @@ It complements Falcata Analyzer on the Mac: the Mac app overlays measured Watch 
 - **Honest signal processing** — keep step detection, acceleration, GCT, and sprint-end logic tied to shared app processors instead of duplicate paths
 - **Workflow clarity** — make it obvious when the iPhone can record the start only, finish only, or the full sprint
 - **AI coaching (Analyzer, opt-in)** — Falcata Analyzer on macOS now has an AI Sprint Coach: on device (Apple Intelligence or a local open model) or bring-your-own-key cloud. The iPhone and Watch stay focused on measured biomechanics, reliable camera evidence, and transparent metrics — AI is never required, and nothing leaves your Mac unless you opt into a cloud provider
+- **AI Vision (Web Analyzer, on-device)** — the browser app now runs on-device pose analysis on a marked section (skeleton overlay, automatic ground contact, foot-strike counts, overstride flags) with no upload — distinct from the macOS AI Sprint Coach
 
 ## Data and sync
 

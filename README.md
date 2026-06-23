@@ -83,7 +83,8 @@ A free, install-free web app at **[app.falcatarun.com](https://app.falcatarun.co
 - **Read velocity, acceleration, and sprint stats** (duration, max average speed, start acceleration) computed from your markers and validated against the Start–Finish window.
 - **Export** a WYSIWYG PNG, a short sprint video clip (WebM / MP4, with audio), or a CSV of your markers and segments.
 - **Metric or imperial** units, with per-video markers auto-saved in your browser.
-- **Private by design** — your video is processed locally and never uploaded; only your markers are stored, on your device.
+- **AI Vision** — run on-device pose analysis on a marked section: a frame-by-frame skeleton overlay, automatic ground contact time, left/right foot-strike counts, and overstride flags. It runs in the browser with no upload, and is distinct from the LLM-based AI Sprint Coach on the Mac.
+- **Private by design** — your video is processed locally and never uploaded; only your markers and AI Vision results are stored, on your device.
 
 It complements Falcata Analyzer on the Mac: the Mac app overlays your Watch telemetry on your footage, while the web analyzer needs only the video and your markers.
 
@@ -92,6 +93,7 @@ It complements Falcata Analyzer on the Mac: the Mac app overlays your Watch tele
 Recently added:
 
 - **Falcata Web Analyzer** — a free, no-install browser app at [app.falcatarun.com](https://app.falcatarun.com) for marking distance splits and ground contact time on any sprint video, with PNG / short-video / CSV export.
+- **AI Vision in the Web Analyzer** — on-device pose analysis on a marked section: skeleton overlay, automatic ground contact time, left/right foot-strike counts, and overstride flags, all processed in the browser with no upload.
 - **AI Sprint Coach in Falcata Analyzer** — on-device (Apple Intelligence or a local model) or bring-your-own-key cloud (Anthropic, OpenAI, OpenRouter) coaching, with a chat that reads across your whole imported sprint history.
 - **Falcata Analyzer for macOS** — a native desktop app for reviewing exported sprints, side-by-side chart windows, video editing with telemetry overlays, and chart / video / CSV export.
 - **Start Line Camera modes** — choose a short slo-mo start capture or record the full sprint.
@@ -104,7 +106,7 @@ Roadmap focus:
 - Make the Start Line Camera workflow clearer and easier to use.
 - Improve video overlay validation against real sprint footage.
 - Keep refining sprint timing, acceleration, step detection, and camera matching from measured data.
-- **No AI on the Watch or iPhone.** AI coaching lives only in Falcata Analyzer on macOS, where it's optional and opt-in; the Watch and iPhone stay focused on reliable biomechanics, honest metrics, and camera-backed evidence.
+- **No AI on the Watch or iPhone.** LLM-based AI coaching lives only in Falcata Analyzer on macOS, and on-device AI Vision pose analysis lives only in the Web Analyzer — both optional and opt-in. The Watch and iPhone stay focused on reliable biomechanics, honest metrics, and camera-backed evidence.
 
 ## Why Apple Watch-first
 
