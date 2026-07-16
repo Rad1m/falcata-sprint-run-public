@@ -13,6 +13,22 @@ A complete list of what Falcata Run does for sprinters and coaches.
 - **Start Line Camera** — optional iPhone recording from the start line, with Slo-mo Start and Full Sprint capture modes
 - **Full Sprint video export** — normal-speed telemetry overlay video with timer, reaction time, velocity/drive chart, foot-strike ticks, and GCT bars
 
+## iPhone training log (no Apple Watch required)
+
+The iPhone app is a complete sprint training log on its own. The Apple Watch is optional and controlled by a simple preference — turning it off hides Watch-specific tools without touching any data.
+
+- **Live iPhone workouts** — start a workout, leave the phone trackside, and log each sprint between reps: distance, optional time, timing method, and notes
+- **Repeat Last Sprint** — one tap to log another rep of the same set
+- **Training Timer** — time warm-ups, drills, plyometrics, strength, mobility, recovery, and cooldowns as they happen, with real start times and durations
+- **Pause / resume / reorder** — the live timeline is editable, and the draft survives a force-quit or crash intact
+- **Heart rate and calories via HealthKit** where available; the session still saves locally if HealthKit is unavailable or denied
+- **Log completed training** — enter a finished session after practice: sprint sets as sets × reps with per-rep times (centisecond precision), recovery between reps and between sets, and training activities from warm-up to cooldown
+- **Guided or quick entry** — a step-by-step wizard asks one coaching question at a time (focus → warm-up → main work → cooldown → reflection → review); a quick composer skips straight to the cards
+- **Timing provenance on every rep** — Falcata Watch capture, hand timer, electronic timing, or video; the method stays visible on the rep
+- **RPE + post-session feeling** — effort rating and a separate Fresh / Good / Tired / Very tired reflection
+- **One training log** — manual and Watch-recorded reps share the same sessions, dashboard, trends, and fastest-times lists; manual entries stay out of sensor-based biomechanics, leaderboards, and validation pipelines
+- **Apple Health integration** — phone-logged sessions save as Track & Field workouts with ordered sub-activities
+
 ## Sprint metrics
 
 - **Reaction time** — millisecond-accurate (±10ms), detected from 100 Hz accelerometer signal
@@ -109,7 +125,11 @@ A native macOS app that ingests your exported sprint sessions and reuses the **s
 - **Chart export** — export stacked charts as PNG or JPEG, with a dark or white background, optional sprint info (distance, reaction time, steps, weather), a live preview, and a Falcatarun.com + date attribution stamp
 - **CSV export** — export selected chart lanes and sprint info, with optional markers and foot strikes, delimiter selection, and a live preview
 - **Standalone video analysis** — open any video without a linked sprint and mark Start / Finish / Distance points to read velocity and acceleration from the footage alone (the same marker-based method as the web analyzer)
-- **Team Roster** — organize athletes and assign their sprint sessions and videos, so a coach can manage a whole squad from a single library; sessions can be moved between athletes or left unassigned
+- **AI Vision pose analysis** — run on-device pose analysis on any marked segment of any video: a frame-by-frame skeleton overlay with optional lean vectors, video-derived cadence and ground contact time, torso lean, knee drive, touchdown reach, and an expandable per-step metrics table. Results persist per video, the skeleton can bake into exported clips, and steps without reliable evidence are left blank rather than invented
+- **Guided analysis wizard** — a dedicated step-by-step window for video import: pick the athlete, mark the start, mark the first foot strike (when sensor data backs the clip), mark the finish, run pose analysis, and read a plain-language results card — with the full editing workspace one click away
+- **Team workspace with squads** — organize athletes into squads, assign sessions and videos, archive or move athletes between squads, and open per-athlete progression dashboards; a coach mode shows the squad-sectioned roster while an athlete mode opens straight into "My Progress"
+- **Per-sprint units** — each sprint keeps its own metric or imperial display (a 40-yard dash in yards next to a 100 m in meters), consistent across charts, timeline, overlay, and every export
+- **Portrait export** — switch the program canvas to vertical 9:16 with a crop that keeps the runner framed, and export share-ready portrait clips with the overlay and skeleton baked in
 - **AI Sprint Coach (optional)** — coaching grounded in your measured numbers, plus a chat that answers questions across your whole imported sprint history. Run it fully on device with Apple Intelligence or a local open model, or bring your own cloud API key (Anthropic, OpenAI, OpenRouter). On-device providers keep your data on your Mac; any cloud use is opt-in behind a clear consent
 
 ## Web analyzer (browser — app.falcatarun.com)
@@ -136,7 +156,7 @@ It complements Falcata Analyzer on the Mac: the Mac app overlays measured Watch 
 - **Honest signal processing** — keep step detection, acceleration, GCT, and sprint-end logic tied to shared app processors instead of duplicate paths
 - **Workflow clarity** — make it obvious when the iPhone can record the start only, finish only, or the full sprint
 - **AI coaching (Analyzer, opt-in)** — Falcata Analyzer on macOS now has an AI Sprint Coach: on device (Apple Intelligence or a local open model) or bring-your-own-key cloud. The iPhone and Watch stay focused on measured biomechanics, reliable camera evidence, and transparent metrics — AI is never required, and nothing leaves your Mac unless you opt into a cloud provider
-- **AI Vision (Web Analyzer, on-device)** — the browser app now runs on-device pose analysis on a marked section (skeleton overlay, automatic ground contact, foot-strike counts, overstride flags) with no upload — distinct from the macOS AI Sprint Coach
+- **AI Vision (Analyzer + Web Analyzer, on-device)** — both the macOS Analyzer and the browser app run on-device pose analysis on a marked section (skeleton overlay, automatic ground contact, cadence, foot-strike counts, and — on the Mac — torso lean, knee drive, and touchdown reach) with no upload — distinct from the macOS AI Sprint Coach
 
 ## Data and sync
 

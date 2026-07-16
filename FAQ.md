@@ -4,7 +4,11 @@
 
 ### What is Falcata Run?
 
-Falcata Run is a sprint training app for Apple Watch and iPhone, purpose-built for track and field sprinters running the 100m, 200m, 400m, and 800m. It captures motion data at 100 Hz during every sprint and delivers the metrics that matter: reaction time, drive force, cadence, stride length, arm drive efficiency, and time to max speed.
+Falcata Run is a sprint training app for iPhone and Apple Watch, purpose-built for track and field sprinters running the 100m, 200m, 400m, and 800m. With an Apple Watch it captures motion data at 100 Hz during every sprint and delivers the metrics that matter: reaction time, drive force, cadence, stride length, arm drive efficiency, and time to max speed. Without one, the iPhone app is a complete sprint training log — live workouts at the track or sessions logged after practice.
+
+### Do I need an Apple Watch to use Falcata Run?
+
+No. The Apple Watch is the flagship capture device — it's what records the 100 Hz sensor metrics — but the iPhone app works fully without it. You can start a live workout on the iPhone and log each sprint between reps (with a Training Timer for drills and recovery), or log a completed session after practice: sets × reps, times, recoveries, warm-up through cooldown, effort, and how you felt. Manual and Watch-recorded reps share the same dashboard, trends, and fastest-times lists, and every rep is labeled by how it was timed (Falcata Watch, hand timer, electronic timing, or video). Sensor-based metrics like reaction time and drive force still require the Watch.
 
 ### Who is Falcata Run for?
 
@@ -52,7 +56,7 @@ Three-layer correction. First, centripetal acceleration (the lateral G you feel 
 
 ### Which Apple Watch models work with Falcata Run?
 
-Apple Watch Series 6 and later are recommended — they support the full set of running dynamics metrics (ground contact time, vertical oscillation, stride length, running power) via HealthKit. Older models still work for the core sprint metrics (reaction time, drive force, cadence, stride, arm drive).
+Apple Watch Series 6 and later are recommended — they support the full set of running dynamics metrics (ground contact time, vertical oscillation, stride length, running power) via HealthKit. Older models still work for the core sprint metrics (reaction time, drive force, cadence, stride, arm drive). No Watch at all also works — see "Do I need an Apple Watch to use Falcata Run?" above; you can hide the Watch-specific tools entirely with the Apple Watch features preference in your profile.
 
 ### Do I need a running track to use Falcata Run?
 
@@ -73,6 +77,8 @@ Yes. The Start Line Camera can record either a short slo-mo start or a full spri
 ### Is there a Mac app?
 
 Yes. **Falcata Analyzer** is a native macOS app (macOS 15 or later) for reviewing your sprints on a bigger screen. You export a sprint session from your iPhone and open it on the Mac, where you get synchronized velocity, drive, power, acceleration, arm-swing, and ground-contact charts on one shared playhead, pop-out chart windows you can arrange side by side, and a video editing workspace. It reuses the exact same engine as the Watch and iPhone, so the numbers never diverge.
+
+It also works from footage alone: open any sprint video — no exported sprint required — mark Start / Finish / Distance points, and run on-device **AI Vision pose analysis** (skeleton overlay, video-derived cadence and ground contact time, torso lean, knee drive, touchdown reach). A **Team workspace** organizes athletes into squads with per-athlete progression dashboards, and a **guided analysis wizard** walks you from "open a video" to results step by step.
 
 ### Can I overlay my sprint data on my own video on the Mac?
 
@@ -104,7 +110,7 @@ Sprint sessions sync to iCloud Drive and to HealthKit as workouts, making them a
 
 ### Can coaches use Falcata Run with a whole team?
 
-Yes. Each athlete runs their own Apple Watch, and results can be compared via Game Center leaderboards or by reviewing individual athlete dashboards. The session insights system surfaces fatigue and consistency patterns across a training block.
+Yes. Each athlete runs their own Apple Watch, and results can be compared via Game Center leaderboards or by reviewing individual athlete dashboards. The session insights system surfaces fatigue and consistency patterns across a training block. On the Mac, **Falcata Analyzer**'s Team workspace takes this further: organize athletes into squads, assign their sessions and videos, and open a per-athlete progression dashboard — and because the Analyzer also analyzes plain video with AI Vision, athletes without a Watch still get a place on the roster.
 
 ### Does Falcata Run tell me what to work on?
 
@@ -114,7 +120,7 @@ Yes. The app's insights system operates at three levels: per-sprint ("Excellent 
 
 Yes, but only on the Mac. **Falcata Analyzer** (macOS) includes an optional AI Sprint Coach you can run fully on device (Apple Intelligence or a local open model) or with your own cloud API key (Anthropic, OpenAI, OpenRouter), plus a chat across your whole imported history. The Apple Watch and iPhone apps deliberately stay AI-free — they focus on reliable sprint biomechanics, camera-backed evidence, and transparent metrics. AI is never required to use Falcata Run, and on-device options keep your data on your Mac.
 
-Separately, the **Web Analyzer** has **AI Vision** — on-device computer-vision pose analysis (skeleton overlay, automatic ground contact, foot-strike counts, overstride flags) that runs in your browser with no upload. That is pose analysis, not the LLM-based coaching the Mac app provides.
+Separately, **AI Vision** — on-device computer-vision pose analysis — is available in two places: **Falcata Analyzer** on the Mac (skeleton overlay, video-derived cadence and ground contact time, torso lean, knee drive, touchdown reach, per-step metrics) and the **Web Analyzer** in the browser (skeleton overlay, automatic ground contact, foot-strike counts, overstride flags). Both run entirely on your device with no upload. That is pose analysis, not the LLM-based coaching the Mac app provides.
 
 ### What is Effort %?
 
