@@ -5,9 +5,9 @@ A complete list of what Falcata Run does for sprinters and coaches.
 ## Core recording
 
 - **100 Hz motion capture** on Apple Watch — accelerometer, gyroscope, and gravity sampled every 10 milliseconds
-- **Fully offline recording** — no iPhone required at the track
+- **Fully offline recording** — no iPhone required at practice
 - **Automatic sprint end detection** using a 3-phase piecewise linear fit (finds the true finish, not when you stop running)
-- **Block start mode** with authentic meet-simulation tone sequences — "On your marks," "Set," the gun
+- **Explosive start mode** — blocks, 3-point stance, or standing — with authentic race-simulation tone sequences: "On your marks," "Set," the gun
 - **Free run mode** for open-distance efforts without a fixed target
 - **Camera finish** — optional iPhone finish-line photo with automatically overlaid sprint data
 - **Start Line Camera** — optional iPhone recording from the start line, with Slo-mo Start and Full Sprint capture modes
@@ -17,7 +17,7 @@ A complete list of what Falcata Run does for sprinters and coaches.
 
 The iPhone app is a complete sprint training log on its own. The Apple Watch is optional and controlled by a simple preference — turning it off hides Watch-specific tools without touching any data.
 
-- **Live iPhone workouts** — start a workout, leave the phone trackside, and log each sprint between reps: distance, optional time, timing method, and notes
+- **Live iPhone workouts** — start a workout, leave the phone at practice, and log each sprint between reps: distance, optional time, timing method, and notes
 - **Repeat Last Sprint** — one tap to log another rep of the same set
 - **Training Timer** — time warm-ups, drills, plyometrics, strength, mobility, recovery, and cooldowns as they happen, with real start times and durations
 - **Pause / resume / reorder** — the live timeline is editable, and the draft survives a force-quit or crash intact

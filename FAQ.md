@@ -4,7 +4,7 @@
 
 ### What is Falcata Run?
 
-Falcata Run is a sprint training app for iPhone and Apple Watch, purpose-built for track and field sprinters running the 100m, 200m, 400m, and 800m. With an Apple Watch it captures motion data at 100 Hz during every sprint and delivers the metrics that matter: reaction time, drive force, cadence, stride length, arm drive efficiency, and time to max speed. Without one, the iPhone app is a complete sprint training log — live workouts at the track or sessions logged after practice.
+Falcata Run is a sprint training app for iPhone and Apple Watch, purpose-built for sprinters in any sport — from a 40-yard dash to an 800m. With an Apple Watch it captures motion data at 100 Hz during every sprint and delivers the metrics that matter: reaction time, drive force, cadence, stride length, arm drive efficiency, and time to max speed. Without one, the iPhone app is a complete sprint training log — live workouts at practice or sessions logged afterward.
 
 ### Do I need an Apple Watch to use Falcata Run?
 
@@ -12,7 +12,7 @@ No. The Apple Watch is the flagship capture device — it's what records the 100
 
 ### Who is Falcata Run for?
 
-Sprinters, sprint coaches, track and field clubs, masters athletes, and self-coached runners who want objective data on short, explosive, all-out efforts. If you train in the 10-second to 2-minute range on a track, Falcata Run is for you.
+Sprinters and teams in any sport that trains explosive speed — track and field, football, rugby, soccer, field hockey, and more — plus sprint coaches, masters athletes, and self-coached runners who want objective data on short, explosive, all-out efforts. If you train in the 10-second to 2-minute range, Falcata Run is for you.
 
 ### What distances does Falcata Run support?
 
@@ -26,11 +26,11 @@ Falcata Run is available on the App Store. Visit [falcatarun.com](https://falcat
 
 ### Does Falcata Run need an iPhone to record sprints?
 
-No. Falcata Run is watchOS-first — the Apple Watch records, times, and analyzes sprints fully offline. Your iPhone is the analyst view for deep analysis, history, and sharing, and it syncs automatically when in range. Leave your phone in your bag on the track.
+No. Falcata Run is watchOS-first — the Apple Watch records, times, and analyzes sprints fully offline. Your iPhone is the analyst view for deep analysis, history, and sharing, and it syncs automatically when in range. Leave your phone in your bag.
 
 ### How does Falcata Run measure reaction time?
 
-Reaction time is detected from 100 Hz accelerometer data captured on the Apple Watch during the block start sequence. The algorithm identifies the first significant motion after the "gun" signal, with ±10 millisecond accuracy. Sub-200ms is considered elite.
+Reaction time is detected from 100 Hz accelerometer data captured on the Apple Watch during your start sequence — blocks, a 3-point stance, or standing. The algorithm identifies the first significant motion after the "gun" signal, with ±10 millisecond accuracy. Sub-200ms is considered elite.
 
 ### How accurate is Falcata Run compared to standard running apps?
 
@@ -38,7 +38,7 @@ Generic fitness apps are built for steady-state running — they sample GPS at 1
 
 ### How does Falcata Run detect the end of a sprint?
 
-Falcata Run uses a 3-phase piecewise linear fit — the acceleration signal is modeled as three connected lines (drive, fly, deceleration), and the breakpoint between fly and deceleration is identified as the sprint end. This detects the structural inflection where deceleration *begins*, rather than waiting for you to slow down and walk off the track. It has been tested against video-verified sprints from 20m to 800m.
+Falcata Run uses a 3-phase piecewise linear fit — the acceleration signal is modeled as three connected lines (drive, fly, deceleration), and the breakpoint between fly and deceleration is identified as the sprint end. This detects the structural inflection where deceleration *begins*, rather than waiting for you to slow down and stop. It has been tested against video-verified sprints from 20m to 800m.
 
 ### What is propulsive G-force and how is it measured?
 
@@ -138,7 +138,7 @@ Those apps are built for steady-state endurance running — 5Ks, 10Ks, marathons
 
 ### How is Falcata Run different from FLPR Technology, Airtime, or SprintStudio?
 
-Falcata Run runs natively on Apple Watch with no additional hardware required — no sensor pods, no chest straps, no timing gates, no beam sensors. It works out of the box with the watch you already own, fully offline on the track.
+Falcata Run runs natively on Apple Watch with no additional hardware required — no sensor pods, no chest straps, no timing gates, no beam sensors. It works out of the box with the watch you already own, fully offline, wherever you train.
 
 ---
 

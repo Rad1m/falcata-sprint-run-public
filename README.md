@@ -1,6 +1,6 @@
 # Falcata Run
 
-**The gold standard for sprint tracking.** A watchOS-first sprint training app for 100m, 200m, 400m, and 800m runners — built for sprinters, coaches, and track clubs who care about milliseconds.
+**The gold standard for sprint tracking.** A watchOS-first sprint training app for the 40-yard dash, the 100m, and every explosive sprint between — built for sprinters, coaches, and teams who care about milliseconds.
 
 🌐 [falcatarun.com](https://falcatarun.com)
 
@@ -10,7 +10,7 @@
 
 Falcata Run turns your Apple Watch into a starter pistol and sprint sensor, with optional iPhone camera tools for finish-line validation and full-sprint video overlays — and a native **Mac app, Falcata Analyzer**, for deep desktop review and video editing. There's also a free **web analyzer** at [app.falcatarun.com](https://app.falcatarun.com) for marking distance splits and ground contact time on any sprint video, right in your browser — no install and no Apple hardware required.
 
-**The Apple Watch is optional.** The iPhone app is a complete sprint training log on its own: start a **live workout** at the track and log each sprint between reps, or **log a completed session** after practice — sets × reps, times, recoveries, drills, and how it felt. Manual and Watch-recorded reps share the same dashboard, trends, and personal records, and each rep keeps its timing provenance (Falcata Watch, hand timer, electronic timing, or video).
+**The Apple Watch is optional.** The iPhone app is a complete sprint training log on its own: start a **live workout** at practice and log each sprint between reps, or **log a completed session** after practice — sets × reps, times, recoveries, drills, and how it felt. Manual and Watch-recorded reps share the same dashboard, trends, and personal records, and each rep keeps its timing provenance (Falcata Watch, hand timer, electronic timing, or video).
 
 It captures motion at 100 Hz during every sprint and surfaces the metrics that actually matter: **reaction time, drive force, cadence, stride length, arm drive efficiency, and time to max speed.** Then it tells you what to fix, what to keep, and how to get faster.
 
@@ -18,14 +18,14 @@ It captures motion at 100 Hz during every sprint and surfaces the metrics that a
 
 ## Who it's for
 
-- **Sprinters** training the 100, 200, 400, and 800
+- **Sprinters in any sport** — track, football (40-yard dash), rugby, soccer, field hockey, and anyone else training explosive speed
 - **Coaches** who need objective data on reaction time, form breakdown, and fatigue patterns
 - **Masters athletes** chasing PBs into their 40s, 50s, 60s and beyond
-- **Teams** running block starts at practice and simulating meet conditions
+- **Teams** running explosive starts at practice — blocks, 3-point stance, or standing — with race-day simulation
 
 ## What it measures
 
-- ⚡ **Reaction time** — millisecond-accurate block start detection
+- ⚡ **Reaction time** — millisecond-accurate start detection, from blocks, a 3-point stance, or standing
 - 🚀 **Drive force** — propulsive G-force through the acceleration phase
 - 👟 **Cadence & stride** — step frequency (Hz) and stride length from gyroscope-verified step detection
 - 💪 **Arm drive & ROM decay** — how much your form fades under fatigue
@@ -38,12 +38,12 @@ It captures motion at 100 Hz during every sprint and surfaces the metrics that a
 
 ## See it in action
 
-### On the Watch — track-side
+### On the Watch — wherever you start
 
 | | | | |
 |---|---|---|---|
-| ![Apple Watch screen showing Open Sprint and Signal Sprint mode buttons — Falcata Run offers free-run mode and meet-simulation block start mode](screenshots/watch-mode-select.png) | ![Apple Watch screen showing 100m distance selection with Turn crown to change instruction and large green READY button](screenshots/watch-distance-100m.png) | ![Apple Watch Select Lane screen with track icon and lane 1 highlighted for curve-aware distance calibration on 200m and 400m sprints](screenshots/watch-lane-select.png) | ![Apple Watch sprint result screen showing 10.071s finish time in green, 281ms reaction time with +64ms delta from PB, and 101 bpm heart rate](screenshots/watch-sprint-result.png) |
-| **Open or Signal Sprint** — free run or meet-simulation block start | **Distance select** — 100m, 200m, 400m, 800m, and more via crown | **Lane select** — for curve-accurate 200m and 400m distance | **Instant result** — finish time, reaction time, delta from PB, heart rate |
+| ![Apple Watch screen showing Open Sprint and Signal Sprint mode buttons — Falcata Run offers free-run mode and race-simulation explosive-start mode](screenshots/watch-mode-select.png) | ![Apple Watch screen showing 100m distance selection with Turn crown to change instruction and large green READY button](screenshots/watch-distance-100m.png) | ![Apple Watch Select Lane screen with track icon and lane 1 highlighted for curve-aware distance calibration on 200m and 400m sprints](screenshots/watch-lane-select.png) | ![Apple Watch sprint result screen showing 10.071s finish time in green, 281ms reaction time with +64ms delta from PB, and 101 bpm heart rate](screenshots/watch-sprint-result.png) |
+| **Open or Signal Sprint** — free run or race-simulation explosive start | **Distance select** — 100m, 200m, 400m, 800m, and more via crown | **Lane select** — for curve-accurate 200m and 400m distance | **Instant result** — finish time, reaction time, delta from PB, heart rate |
 
 ### On the iPhone — analyst view
 
@@ -119,9 +119,9 @@ Roadmap focus:
 
 ## Why Apple Watch-first (but not Apple Watch-only)
 
-Sprinters are on the track. Phones are in bags. Falcata Run runs fully offline on the Watch — recording, real-time metrics, start sequences, even meet-simulation tone patterns. Your iPhone is the analyst view: charts, history, sharing, deep analysis.
+Athletes are moving. Phones are in bags. Falcata Run runs fully offline on the Watch — recording, real-time metrics, start sequences, even race-simulation tone patterns. Your iPhone is the analyst view: charts, history, sharing, deep analysis.
 
-But not every rep is Watch-timed — and the app doesn't pretend otherwise. Without a Watch, the iPhone is a full training log: live workouts at the track or completed sessions logged after practice, with every entry labeled by how it was timed. Manual reps count toward your trends and fastest times, but they never enter sensor-based analysis or leaderboards — measured data stays measured.
+But not every rep is Watch-timed — and the app doesn't pretend otherwise. Without a Watch, the iPhone is a full training log: live workouts during practice or completed sessions logged afterward, with every entry labeled by how it was timed. Manual reps count toward your trends and fastest times, but they never enter sensor-based analysis or leaderboards — measured data stays measured.
 
 ## Platforms
 

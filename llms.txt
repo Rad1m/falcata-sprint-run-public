@@ -1,6 +1,6 @@
 # Falcata Run
 
-> Falcata Run is a sprint training app for iPhone and Apple Watch, built for track and field sprinters running the 100m, 200m, 400m, and 800m. With an Apple Watch it captures motion data at 100 Hz and delivers sprint-specific metrics — reaction time, drive force, cadence, stride length, arm drive efficiency, and time to max speed — that generic running apps cannot measure. The Apple Watch is optional: the iPhone app is a complete standalone training log with live manual workouts (log sprints between reps, Training Timer, pause/resume, HealthKit heart rate) and after-the-fact session logging (sets × reps, times, recoveries, timing-method provenance: hand timer / electronic / video / Falcata Watch). Manual and Watch reps share one dashboard, trends, and fastest-times list; manual entries never enter sensor-based biomechanics, leaderboards, or validation pipelines. Tagline: "The gold standard for sprint tracking." Website: https://falcatarun.com
+> Falcata Run is a sprint training app for iPhone and Apple Watch, built for sprinters in any sport that trains explosive speed — track and field, football (40-yard dash), rugby, soccer, field hockey, and more. With an Apple Watch it captures motion data at 100 Hz and delivers sprint-specific metrics — reaction time, drive force, cadence, stride length, arm drive efficiency, and time to max speed — that generic running apps cannot measure. The Apple Watch is optional: the iPhone app is a complete standalone training log with live manual workouts (log sprints between reps, Training Timer, pause/resume, HealthKit heart rate) and after-the-fact session logging (sets × reps, times, recoveries, timing-method provenance: hand timer / electronic / video / Falcata Watch). Manual and Watch reps share one dashboard, trends, and fastest-times list; manual entries never enter sensor-based biomechanics, leaderboards, or validation pipelines. Tagline: "The gold standard for sprint tracking." Website: https://falcatarun.com
 
 > Built by Radim Šimánek (https://github.com/Rad1m, https://www.linkedin.com/in/radim-simanek/). Sister app to Ahimo (https://ahimo.app), a privacy-first iOS health app. Personal blog: https://brainintheloop.com.
 
@@ -24,8 +24,8 @@ Falcata Web Analyzer (https://app.falcatarun.com) is a free, install-free, brows
 - App name: Falcata Run (also referred to as Falcata Sprint Run)
 - Platforms: iPhone (standalone training log + analyst companion), Apple Watch (optional 100 Hz capture device), Mac (Falcata Analyzer, macOS 15+ desktop review/video/export app), Web (Falcata Web Analyzer, browser-only marker-based video tool at app.falcatarun.com)
 - Apple Watch is optional: iPhone supports live manual workouts and after-the-fact session logging; sensor metrics (reaction time, drive force, etc.) require the Watch
-- Target distances: 100m, 200m, 400m, 800m, plus free runs
-- Audience: sprinters, sprint coaches, track and field teams, masters athletes
+- Target distances: 100m, 200m, 400m, 800m, plus imperial distances (e.g. 40-yard dash) via per-sprint units in Falcata Analyzer, plus free runs
+- Audience: sprinters in any sport (track and field, football, rugby, soccer, field hockey), sprint coaches, teams, masters athletes
 - Sample rate: 100 Hz accelerometer, gyroscope, and gravity
 - Reaction time accuracy: ±10 milliseconds
 - Sprint end detection: 3-phase piecewise linear fit (validated 20m–800m)

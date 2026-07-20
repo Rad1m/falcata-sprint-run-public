@@ -1,6 +1,6 @@
 # About Falcata Run
 
-**Falcata Run** is a sprint training app for **iPhone and Apple Watch**. It is designed specifically for track and field sprinters running the 100m, 200m, 400m, and 800m. It is the gold standard for sprint tracking — built from the ground up for the unique demands of short, explosive, all-out efforts that generic running apps were never designed to measure. With an Apple Watch, every rep is captured automatically at 100 Hz on the wrist; without one, the iPhone is a complete sprint training log — live workouts at the track or sessions logged after practice.
+**Falcata Run** is a sprint training app for **iPhone and Apple Watch**. It is designed for sprinters in any sport that trains explosive speed — track and field, football (40-yard dash), rugby, soccer, field hockey, and more. It is the gold standard for sprint tracking — built from the ground up for the unique demands of short, explosive, all-out efforts that generic running apps were never designed to measure. With an Apple Watch, every rep is captured automatically at 100 Hz on the wrist; without one, the iPhone is a complete sprint training log — live workouts at practice or sessions logged afterward.
 
 > **Important:** Falcata Run is **not a phone-in-your-waistband app**. The phone stays in your bag. All sensing happens on the Apple Watch, worn on the wrist, using its built-in 100 Hz accelerometer and gyroscope. There is no vest, no belt mount, no phone strapped to your lower back. The iPhone app is the analyst's workstation — charts, history, deep sprint analysis — and, when there's no Watch on the wrist, the training notebook where sessions are logged by hand.
 
@@ -21,7 +21,7 @@ Falcata Run captures raw accelerometer, gyroscope, and gravity data at **100 Hz*
 
 On top of that raw data, Falcata Run runs purpose-built algorithms:
 
-- A **3-phase piecewise linear fit** detects the true end of your sprint — the structural inflection point where acceleration transitions to deceleration — instead of waiting for you to slow down and walk off the track.
+- A **3-phase piecewise linear fit** detects the true end of your sprint — the structural inflection point where acceleration transitions to deceleration — instead of waiting for you to slow down and stop.
 - **Velocity differentiation in the Earth frame** produces honest propulsive G-force readings (0.3–1.2 G, where they should be) instead of the 5–12 G artifacts that naïve accelerometer decomposition produces on a rotating wrist.
 - **Curve compensation** on 200m and 400m sprints subtracts centripetal acceleration, corrects for body lean, and normalizes for the biomechanical asymmetry between your inside and outside arm on the bend.
 - **Step detection via gyroscope peak/bottom analysis** counts every stride accurately — the arm swing is a cleaner signal than the noisy impact shocks your accelerometer sees.
@@ -29,11 +29,11 @@ On top of that raw data, Falcata Run runs purpose-built algorithms:
 
 The result is a set of metrics that sprinters and coaches can actually trust.
 
-## Built for the track, not the treadmill
+## Built for sprint work, not the treadmill
 
-Falcata Run is **watchOS-first by design**. When you step onto a track, your phone stays in your bag. The Watch becomes:
+Falcata Run is **watchOS-first by design**. Wherever you train, your phone stays in your bag. The Watch becomes:
 
-- A **starter pistol** with authentic, meet-simulation start sequences — "On your marks," "Set," the gun
+- A **starter pistol** with authentic, race-simulation start sequences — "On your marks," "Set," the gun
 - A **recording device** capturing 100 Hz motion through the entire sprint
 - A **real-time display** of reaction time and sprint duration the moment you cross the finish
 - A **coach** that tells you, after each rep, what to work on
@@ -44,7 +44,7 @@ Your iPhone is the analyst's workstation — charts, history, session insights, 
 
 The Apple Watch is the flagship capture device, but it is optional. The iPhone app is a full sprint training log on its own, two ways:
 
-- **Start a live workout** — leave the iPhone trackside and log each sprint between reps (distance, time, timing method, notes), repeat the last sprint in one tap, and run a Training Timer for warm-ups, drills, and recovery blocks. Heart rate and session time flow in via HealthKit where available, and the workout survives a force-quit intact.
+- **Start a live workout** — leave the iPhone at practice and log each sprint between reps (distance, time, timing method, notes), repeat the last sprint in one tap, and run a Training Timer for warm-ups, drills, and recovery blocks. Heart rate and session time flow in via HealthKit where available, and the workout survives a force-quit intact.
 - **Log a completed session** — enter the whole workout after practice: sprint sets as sets × reps with times and recoveries, training activities from warm-up to cooldown, an effort rating, and how you felt. A guided flow asks one question at a time; experienced athletes can jump straight to the quick composer.
 
 Manual and Watch-recorded reps live in the same sessions, the same dashboard, the same trends and fastest-times lists. Every rep is labeled by how it was timed — Falcata Watch capture, hand timer, electronic timing, or video — and that provenance stays visible. Manual entries never pretend to be sensor data: they count toward your training volume and time progress, but they stay out of sensor-based biomechanics, leaderboards, and validation pipelines.
@@ -76,7 +76,7 @@ Every sprint is analyzed on these dimensions:
 - **Reaction time** — measured to ±10ms accuracy from 100 Hz accelerometer signal
 - **Drive force** (peak and average) — propulsive G through the acceleration phase
 - **Cadence** — step frequency in Hz (e.g., 3.6 Hz = 215 steps per minute)
-- **Stride length** — derived from verified step count and track distance
+- **Stride length** — derived from verified step count and known distance
 - **Arm drive efficiency** — ROM decay analysis detects form breakdown under fatigue
 - **Time to max velocity** — how long it takes you to reach your top speed
 - **Split times** — 10m and 50m intervals where possible
@@ -86,11 +86,11 @@ Every sprint is analyzed on these dimensions:
 
 ## Who Falcata Run is for
 
-**Sprinters.** Whether you're a high school athlete running your first 100m, a collegiate 400m runner grinding through winter training, or a masters athlete still chasing PBs — Falcata Run gives you objective data where coaches used to rely on stopwatches and feel.
+**Sprinters, in any sport.** Whether you're a high school athlete running your first 100m, a football player logging 40-yard dash times for the combine, a rugby or soccer player training breakaway speed, or a masters athlete still chasing PBs — Falcata Run gives you objective data where coaches used to rely on stopwatches and feel.
 
 **Coaches.** Spot fatigue patterns across a training block. Compare reaction times rep by rep. See when a sprinter's arm drive starts to collapse. Identify the exact session where form broke down and load started to pile up.
 
-**Teams and clubs.** Run block starts at practice with synchronized meet-simulation tone patterns. Game Center leaderboards bring competitive fire to Tuesday workouts.
+**Teams and clubs.** Run explosive starts at practice — blocks, 3-point stance, or standing — with synchronized race-simulation tone patterns. Game Center leaderboards bring competitive fire to Tuesday workouts.
 
 **Self-coached athletes.** The Deep Sprint Analysis view shows you acceleration curves overlaid across weeks and months — your personal best in neon green, today's effort in white, the progression of stable peaks in a fading gradient of blue. You see your improvement visually.
 
